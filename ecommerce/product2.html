@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Meta tags for character encoding and viewport settings -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Page title -->
+        <title>Sony Walkman WM-FX407</title>
+
+        <!-- Link to external stylesheet and Google Font -->
+        <link rel="stylesheet" href="css/styles.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!-- Global Header -->
+        <header>
+            <!-- Logo linking to homepage -->
+            <a class="logo" href="index.html">V I N T A G E S</a>
+
+            <!-- Navigation menu -->
+            <nav>
+                <ul class="nav__links">
+                    <!-- Search input -->
+                    <li>
+                        <input type="text" placeholder="Search...">
+                    </li>
+                    <!-- Navigation links -->
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <!-- Login and Register buttons -->
+                    <li><button class="login">Log In</button></li>
+                    <li><button class="register">Register</button></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Main Content -->
+        <main>
+            <!-- Product details section -->
+            <section class="single-product-section">
+                <!-- Product image -->
+                <img
+                    width="210"
+                    height="240"
+                    src="images/sony-walkmanm.png"
+                    alt="Sony Walkman WM-FX407"
+                >
+                <div class="single-product-info">
+                    <!-- Product title -->
+                    <h2>Sony Walkman WM-FX407</h2>
+
+                    <!-- Product price -->
+                    <p class="price">$99.99</p>
+
+                    <!-- Product variations (Color, Bundle Options, Condition) -->
+                    <div class="variations">
+                        <p>Color:</p>
+                        <select>
+                            <option value="white">Silver</option>
+                            <option value="black">Black</option>
+                            <option value="red">Blue</option> <!-- Correct color name for consistency -->
+                        </select>
+                        <p>Bundle Options:</p>
+                        <select>
+                            <option value="camera-only">Walkman Only</option>
+                            <option value="camera-film">Walkman + Headphones</option>
+                            <option value="camera-flash">Walkman + Carrying Case</option>
+                        </select>
+                        <p>Condition:</p>
+                        <select>
+                            <option value="new">Brand New</option>
+                            <option value="refurbished">Refurbished</option>
+                            <option value="used">Used</option>
+                        </select>
+                    </div>
+
+                    <!-- Action buttons -->
+                    <div class="buttons">
+                        <button onclick="addedToCart(event)" class="add-to-cart">Add to Cart</button>
+                        <button class="buy-now">Buy Now</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Product description -->
+            <section class="description">
+                <h3>Description:</h3>
+                <hr>
+                <p>
+                    Rediscover the charm of classic portable music with the Sony Walkman WM-FX407. Launched in the late 1990s, this iconic cassette player represents the golden age of personal audio technology. Designed with a sleek, compact body, the WM-FX407 offers both style and functionality, making it a cherished collector’s item and a nostalgic piece for vintage audio enthusiasts.
+                </p>
+            </section>
+
+            <!-- Embedded video section -->
+            <section class="video">
+                <h3>Video:</h3>
+                <iframe width="1200" height="600" src="https://www.youtube.com/embed/wSogNTsLr5M" frameborder="0"></iframe> <!-- Added frameborder for older browser support -->
+            </section>
+        </main>
+
+        <!-- Global Footer -->
+        <footer>
+            <div class="footer-container">
+                <!-- Contact information -->
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <p>
+                        Email:
+                        <a href="mailto:contact@vintages.com">contact@vintages.com</a>
+                    </p>
+                    <p>Phone: +1 (123) 456-7890</p>
+                </div>
+
+                <!-- Social media links -->
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <a href="#" target="_blank" rel="noopener noreferrer">Facebook</a>
+                    <a href="#" target="_blank" rel="noopener noreferrer">Twitter</a>
+                    <a href="#" target="_blank" rel="noopener noreferrer">Instagram</a>
+                </div>
+
+                <!-- Site navigation links -->
+                <div class="footer-section">
+                    <h3>Site Navigation</h3>
+                    <a href="index.html">Home</a>
+                    <a href="shop.html">Shop</a>
+                    <a href="about.html">About</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+            </div>
+
+            <!-- Footer bottom section -->
+            <div class="footer-bottom">
+                <p>&copy; 2024 VINTAGES. All rights reserved.</p>
+            </div>
+        </footer>
+    </body>
+    <!-- Link to external JavaScript file -->
+    <script src="js/script.js"></script>
+</html>

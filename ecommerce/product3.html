@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Rubik's Cube</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!-- Global Header -->
+        <header>
+            <!-- Logo and Navigation Menu -->
+            <a class="logo" href="index.html">V I N T A G E S</a>
+            <nav>
+                <ul class="nav__links">
+                    <li>
+                        <input type="text" placeholder="Search...">
+                    </li>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="shop.html">Shop</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <button class="login">Log In</button>
+                    </li>
+                    <li>
+                        <button class="register">Register</button>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Main Content -->
+        <main>
+            <!-- Product Details Section -->
+            <section class="single-product-section">
+                <img
+                    width="210"
+                    height="240"
+                    src="images/rubiks-cube.jpg"
+                    alt="Rubik's Cube"
+                >
+                <div class="single-product-info">
+                    <h2>Rubik's Cube</h2>
+                    <p class="price">$14.99</p>
+                    <div class="variations">
+                        <!-- Product Variations: Types of Rubik's Cubes -->
+                        <p>Types:</p>
+                        <select>
+                            <option value="2x2x2">2x2x2 (Pocket Cube)</option>
+                            <option value="4x4x4">4x4x4 (Rubik's Revenge)</option>
+                            <option value="5x5x5">5x5x5 (Professor's Cube)</option>
+                            <option value="pyraminx">Pyraminx</option>
+                            <option value="skewb">Skewb</option>
+                            <option value="gear-cube">Gear Cube</option>
+                        </select>
+                    </div>
+                    <div class="buttons">
+                        <!-- Action Buttons: Add to Cart and Buy Now -->
+                        <button onclick="addedToCart(event)" class="add-to-cart">Add to Cart</button>
+                        <button class="buy-now">Buy Now</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Product Description Section -->
+            <section class="description">
+                <h3>Description:</h3>
+                <hr>
+                <p>
+                    The Rubik's Cube is a 3D combination puzzle invented in 1974 by Hungarian sculptor and professor of architecture Ernő Rubik. Originally called the Magic Cube, the puzzle was licensed by Rubik to be sold by Pentangle Puzzles in the UK in 1978, and then by Ideal Toy Corp in 1980 via businessman Tibor Laczi and Seven Towns founder Tom Kremer. The cube was released internationally in 1980 and became one of the most recognized icons in popular culture. It won the 1980 German Game of the Year special award for Best Puzzle. As of January 2024, around 500 million cubes had been sold worldwide, making it the world's bestselling puzzle game and bestselling toy. The Rubik's Cube was inducted into the US National Toy Hall of Fame in 2014.
+                </p>
+            </section>
+
+            <!-- Product Video Section -->
+            <section class="video">
+                <h3>Video:</h3>
+                <iframe width="1200" height="600" src="https://www.youtube.com/embed/ZcYqApvg4Bc" frameborder="0" allowfullscreen></iframe>
+            </section>
+        </main>
+
+        <!-- Global Footer -->
+        <footer>
+            <div class="footer-container">
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <p>
+                        Email:
+                        <a href="mailto:contact@vintages.com">contact@vintages.com</a>
+                    </p>
+                    <p>Phone: +1 (123) 456-7890</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <a href="#" target="_blank" rel="noopener noreferrer">Facebook</a>
+                    <a href="#" target="_blank" rel="noopener noreferrer">Twitter</a>
+                    <a href="#" target="_blank" rel="noopener noreferrer">Instagram</a>
+                </div>
+                <div class="footer-section">
+                    <h3>Site Navigation</h3>
+                    <a href="index.html">Home</a>
+                    <a href="shop.html">Shop</a>
+                    <a href="about.html">About</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 VINTAGES. All rights reserved.</p>
+            </div>
+        </footer>
+    </body>
+    <script src="js/script.js"></script>
+</html>
